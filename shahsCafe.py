@@ -78,3 +78,6 @@ print("{}.....${}\n{}.....${}\n{}.....${}\n".format(bev[bev_ch]
 , amt[dess_ch+ 8]))
 print("Total.....${}\n......................".format(50-limit))
 print("Thank you for visiting Shah's Cafe! See you again")
+
+
+print("new commit")
