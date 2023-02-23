@@ -80,4 +80,3 @@ print("Total.....${}\n......................".format(50-limit))
 print("Thank you for visiting Shah's Cafe! See you again")
 
 
-print("new commit")
