@@ -1,6 +1,3 @@
-
-
-
 sum = 0.00
 bev= ["mocha", "Water", "fruit juice", "chailatte"]
 amt = [4.25, 1.00, 3.25, 3.00, 14.25, 16.75, 12.70, 11.80, 3.15, 4.90, 3.50]
@@ -13,19 +10,19 @@ flag_drinks = False
 while flag_drinks == False:
   if bev_ch== 0:
     sum = sum+(amt[0])
-    print("Thank you, {} sounds perfect! You have ${} remaining.\n".format(bev[0], sum))
+    print("Thank you, {} sounds perfect!\n".format(bev[0]))
     flag_drinks = True
   elif bev_ch== 1:
     sum = sum+(amt[1])
-    print("Thank you, {} sounds perfect! You have ${} remaining.\n".format(bev[1], sum))
+    print("Thank you, {} sounds perfect! .\n".format(bev[1]))
     flag_drinks = True
   elif bev_ch== 2:
     sum = sum+(amt[2])
-    print("Thank you, {} sounds perfect! You have ${} remaining.\n".format(bev[2], sum))
+    print("Thank you, {} sounds perfect!.\n".format(bev[2]))
     flag_drinks = True
   elif bev_ch== 3:
     sum = sum+(amt[3])
-    print("Thank you, {} sounds perfect! You have ${} remaining.\n".format(bev[3], sum))
+    print("Thank you, {} sounds perfect!.\n".format(bev[3]))
     flag_drinks = True
   else:
     bev_ch = int(input("Sorry, that doesn't seem to be an option. Try again:\n"))
@@ -37,19 +34,19 @@ flag_meal = False
 while flag_meal == False:
   if main_ch== 0:
     sum = sum+(amt[4])
-    print("Yum, {} sounds good! You have ${} remaining.\n".format(main_course[0], sum))
+    print("Yum, {} sounds good!.\n".format(main_course[0]))
     flag_meal = True
   elif main_ch == 1:
     sum = sum+(amt[5])
-    print("Yum, {} sounds good! You have ${} remaining.\n".format(main_course[1], sum))
+    print("Yum, {} sounds good!.\n".format(main_course[1]))
     flag_meal = True
   elif main_ch == 2:
     sum = sum+(amt[6])
-    print("Yum, {} sounds good! You have ${} remaining.\n".format(main_course[2], sum))
+    print("Yum, {} sounds good!.\n".format(main_course[2]))
     flag_meal = True
   elif main_ch == 3:
     sum = sum+(amt[7])
-    print("Yum, {} sounds good! You have ${} remaining.\n".format(main_course[3], sum))
+    print("Yum, {} sounds good!.\n".format(main_course[3]))
     flag_meal = True
   else:
     main_ch = int(input("Sorry, that doesn't seem to be an option. Try again:\n"))
@@ -61,15 +58,15 @@ flag_dess = False
 while flag_dess == False:
   if dess_ch == 0:
     sum = sum+(amt[8])
-    print("Delicious {} coming right up! You have ${} remaining.\n".format(dess[0], sum))
+    print("Delicious {} coming right up!".format(dess[0]))
     flag_dess = True
   elif dess_ch == 1:
     sum = sum+(amt[9])
-    print("Delicious {} coming right up! You have ${} remaining.\n".format(dess[1], sum))
+    print("Delicious {} coming right up!".format(dess[0]))
     flag_dess = True
   elif dess_ch == 2:
     sum = sum+(amt[10])
-    print("Delicious {} coming right up! You have ${} remaining.\n".format(dess[2], sum))
+    print("Delicious {} coming right up!".format(dess[0]))
     flag_dess = True
   else:
     dess_ch = int(input("Sorry, that doesn't seem to be an option. Try again:\n"))
